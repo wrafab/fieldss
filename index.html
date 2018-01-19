@@ -23,9 +23,35 @@ p {font-family:comic sans ms;color:#000000;font-size:200%;text-align:justify;max
   <p> My name is Sebastian and I'm a sophomore at Western Reserve Academy, and this is my new webpage.</p>
 <a href="bio.html">About me page </a>
 
-<nav>
-    <ul>
-	    <li class="nav-li"><a class="active" href="index.html">HOME</a></li>
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+</style>
+</head>
+<body>
+
+<ul>
+ <li class="nav-li"><a class="active" href="index.html">HOME</a></li>
       <li class="nav-li"><a href="bio.html">About me page ">ABOUT ME</a></li>
       <li class="nav-li"><a href="week1.html">1</a></li>
       <li class="nav-li"><a href="week2.html">2</a></li>
@@ -36,6 +62,6 @@ p {font-family:comic sans ms;color:#000000;font-size:200%;text-align:justify;max
       <li class="nav-li"><a href="week7.html">7</a></li>
       <li class="nav-li"><a href="week8.html">8</a></li>
       <li class="nav-li"><a href="week9.html">9</a></li>
-      <li class="nav-li"><a href="week0.html">10</a></li>
+      <li class="nav-li"><a href="week0.html">10</a></li> 
     </ul>
 </nav>
