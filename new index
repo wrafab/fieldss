@@ -1,0 +1,123 @@
+
+<html>
+<head>
+	<title>Sebastian's Fab Website</title>
+
+
+<style>
+
+
+header, footer {
+	padding: 20px;
+	text-align:center;
+	font-family:"comic sans ms", sans-serif;
+	font-weight: bold;
+	color: white;
+	background-color: #3BB9FF;
+}
+
+	
+ul {
+    list-style-type: circle;
+    margin: 2;
+    padding: 2;
+    overflow: hidden;
+    background-color: #7FFFD4;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    position: relative;
+    color: purple;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+    font-family: comic sans ms, sans-serif;
+    font-size: 200%;
+}
+
+li a:before {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+	
+li a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+li a:hover {
+    color: black;
+}
+
+body {
+   background-color: #000000;
+}
+	
+
+	
+	
+ h1 {font-size=200px;font-family:comic sans ms;color:white;text-align:center;}
+ h2 {font-size=35px;font-family:comic sans ms;color:white;text-align:center;}
+ h3 {font-size=35px;font-family:comic sans ms;color:white;text-align:center;}
+ p {color:white;font-family:comic sans ms;font-size:20px}
+
+.active {
+    background-color: #C0C0C0;
+    color: red;
+}
+
+</style>
+</head>
+
+	
+<header>
+	<h1>Sebastian's Fab page </h1>
+	
+</header>
+	
+
+<nav>
+    <ul>
+	    <li class="nav-li"><a class="active" href="index.html">HOME</a></li>
+      <li class="nav-li"><a href="me.html">ABOUT ME</a></li>
+      <li class="nav-li"><a href="week1.html">Week 1</a></li>
+      <li class="nav-li"><a href="week2.html">Week 2</a></li>
+      <li class="nav-li"><a href="week3.html">3</a></li>
+      <li class="nav-li"><a href="week4.html">4</a></li>
+      <li class="nav-li"><a href="week5.html">5</a></li>
+      <li class="nav-li"><a href="week6.html">6</a></li>
+      <li class="nav-li"><a href="week7.html">7</a></li>
+      <li class="nav-li"><a href="week8.html">8</a></li>
+      <li class="nav-li"><a href="week9.html">9</a></li>
+      <li class="nav-li"><a href="week0.html">10</a></li>
+    </ul>
+</nav>
+
+
+<body>	
+	<p> I'm currently a sophomore at Western Reserve Academy and currenly live in Hammond Indiana. <p1> <br>
+	<img src="Capture.PNG"> <img src="goodpizza.jpg">
+</body>	
+
+	
+<footer>
+</footer>
+	
+	
+</html>
