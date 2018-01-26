@@ -47,7 +47,7 @@ li a:before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: red;
+  background-color: purple;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -78,8 +78,8 @@ body {
  p {color:white;font-family:comic sans ms;font-size:20px}
 
 .active {
-    background-color: #C0C0C0;
-    color: red;
+    background-color: #ffe2fd;
+    color: purple;
 }
 
 </style>
@@ -95,7 +95,7 @@ body {
 <nav>
     <ul>
 	    <li class="nav-li"><a class="active" href="index.html">HOME</a></li>
-      <li class="nav-li"><a href="me.html">ABOUT ME</a></li>
+      <li class="nav-li"><a href="bio.html">ABOUT ME</a></li>
       <li class="nav-li"><a href="week1.html">Week 1</a></li>
       <li class="nav-li"><a href="week2.html">Week 2</a></li>
       <li class="nav-li"><a href="week3.html">3</a></li>
@@ -111,7 +111,7 @@ body {
 
 
 <body>	
-	<p> I'm currently a sophomore at Western Reserve Academy and currenly live in Hammond Indiana. <p1> <br>
+	<p> Hello fellow inhabitants of Earth, I'm currently a sophomore at Western Reserve Academy and currenly live in Hammond Indiana. <p1> <br>
 	<img src="Capture.PNG"> <img src="sky.jpg">
 </body>	
 
@@ -121,3 +121,4 @@ body {
 	
 	
 </html>
+
