@@ -1,11 +1,99 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Fields</title>
+	<title>Sebastian's About Me Page</title>
+
+
+<style>
+header, footer {
+	padding: 20px;
+	text-align:center;
+	font-family:"comic sans ms", sans-serif;
+	font-weight: bold;
+	color: white;
+	background-color: #3BB9FF;
+}
+	
+ul {
+    list-style-type: circle;
+    margin: 2;
+    padding: 2;
+    overflow: hidden;
+    background-color: #7FFFD4;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    position: relative;
+    color: purple;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+    font-family: comic sans ms, sans-serif;
+    font-size: 200%;
+}
+li a:before {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: purple;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+	
+li a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+li a:hover {
+    color: black;
+}
+body {
+   background-color: #000000;
+}
+	
+	
+	
+ h1 {font-size=200px;font-family:comic sans ms;color:white;text-align:center;}
+ h2 {font-size=35px;font-family:comic sans ms;color:white;text-align:center;}
+ h3 {font-size=35px;font-family:comic sans ms;color:white;text-align:center;}
+ p {color:white;font-family:comic sans ms;font-size:20px}
+.active {
+    background-color: #ffe2fd;
+    color: purple;
+}
+</style>
 </head>
-<body>
-<h1> About Me page </h1>
-  <p> A window into the life of a Reserve Student.</p>
-  <p> Hello, my name is Sebastian and I'm from Hammond Indiana and and I am a current sophomore at Western Reserve Academy </p>
-  <p>For the  last two years I have played on the Reserve football team. During the winter season I am currently in my first year of wrestling, and am looking forward to my second year of baseball in the spring.</p>
-<p> 
+
+	
+<header>
+	<h1>Sebastian's About Me Page </h1>
+	
+</header>
+	
+
+
+<body>	
+	<p> A window into the life of a Reserve Student.
+
+Hello, my name is Sebastian and I'm from Hammond Indiana and and I am a current sophomore at Western Reserve Academy
+
+For the last two years I have played on the Reserve football team. During the winter season I am currently in my first year of wrestling, and am looking forward to my second year of baseball in the spring.</p>
+</body>	
+
+
+	
+<footer>
+</footer>
+	
+	
+</html>
