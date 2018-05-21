@@ -1,0 +1,103 @@
+
+<html>
+<head>
+	<title>Sebastian's Week 10</title>
+
+
+<style>
+header, footer {
+	padding: 20px;
+	text-align:center;
+	font-family:"comic sans ms", sans-serif;
+	font-weight: bold;
+	color: white;
+	background-color: #3BB9FF;
+}
+	
+ul {
+    list-style-type: circle;
+    margin: 2;
+    padding: 2;
+    overflow: hidden;
+    background-color: #7FFFD4;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    position: relative;
+    color: purple;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+    font-family: comic sans ms, sans-serif;
+    font-size: 200%;
+}
+li a:before {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: purple;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+	
+li a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+li a:hover {
+    color: black;
+}
+body {
+   background-color: #000000;
+}
+	
+	
+	
+ h1 {font-size=200px;font-family:comic sans ms;color:white;text-align:center;}
+ h2 {font-size=35px;font-family:comic sans ms;color:white;text-align:center;}
+ h3 {font-size=35px;font-family:comic sans ms;color:white;text-align:center;}
+ p {color:white;font-family:comic sans ms;font-size:20px}
+.active {
+    background-color: #ffe2fd;
+    color: purple;
+}
+</style>
+</head>
+
+	
+<header>
+	<h1>Sebastian's Week 10 </h1>
+	
+</header>
+	
+
+
+<body>	
+	<p> Greetings, mammalian organisms who's dwelling resides in the solar system revolving around our central star, the sun. This is what I created my seventhweek of Digital Engineering <p1> <br>
+		<p> For my final project I constructed a wooden roller scate with a wooden roller plate, 3D printed wheels, and a flip flop for the shoe base.</p>
+    <p> The four main components of my project included a wooden base, three 3D printed wheels, two metal axles, and one rubber flip flop. </p>
+    <p> I spent a long time designing the .8 inch wide wheel and a 10 inch 3D printed wheel base, however it was too large for the Makerbot printer so I decided to build a wooden wheel base and screw in rubber flip flop to the base.</p>
+		<p> To decorate the side of the wheel base I rastored STAR WARS into the side of the wood.</p>
+    <p> The most important lession I learned from this project is that planning is key. My 3D printed Base was far betting in design and precision of the dimensions. However I could not use it as a result of its size. 
+	  <p> First, I designed a 2 and 1/2 tall, .8 inch wide 3D printed wheel in Fusion 360 and printed three using the Makerbot priter.</p>
+    <p> Second, I designed a wooden base with 1/2 inch thick wood that was 10" by 4". I then cut out two 10" long, 1 and 1/2 inch by 2" wide pieces of wood to act as the wheel supports. I then placed them .9 inches apart allowing for room for the wheel. I then drilled two holes throught the front and back of the wooden base to serve as an axle </p>
+    <p> Third, I put my metal axle through the front of the scate, got a 1/4 inch thick piece of wood and cut it 5" by 1" and placed it slightly behind the axle under the wooden base. I then got two 1/2 inch wooden piece and cut them 2" by 1". I then drilled a 1/4" hole in both the fit the axle. I then screwed the drilled pieces of wood to the one flat connecting piece. 
+    <p> Lastly, I screwed a rubber flip flop onto the top of the wooden base and sandded the base to fit the size of the sandal better.
+</body>	
+
+	
+<footer>
+</footer>
+	
+	
+</html>
